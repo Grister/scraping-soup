@@ -7,16 +7,18 @@ Clone repository
 git clone https://github.com/Grister/scraping-soup.git
 ```
 
-Install dependencies
-```
-pip3 install -r requirements.txt 
-```
 Create and activate virtual environment
 ```
 cd scraping-soup
 python3 -m venv venv
 source venv/bin/activate
 ```
+
+Install dependencies
+```
+pip3 install -r requirements.txt 
+```
+
 ### Run application
 
 Install migrations
