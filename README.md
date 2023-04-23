@@ -12,11 +12,11 @@ Install dependencies
 pip3 install -r requirements.txt 
 ```
 Create and activate virtual environment
-
+```
 cd scraping-soup
 python3 -m venv venv
 source venv/bin/activate
-
+```
 ### Run application
 
 Install migrations
