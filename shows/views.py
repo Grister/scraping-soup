@@ -6,9 +6,9 @@ from shows.models import TVShow
 def index(request):
 
     service = MostPopularTVShows()
-    top_movies = service.get_tv_shows()
+    top_shows = service.get_tv_shows()
 
-    for top_show in top_movies:
+    for top_show in top_shows:
         show = (
             TVShow.objects
             .filter(
