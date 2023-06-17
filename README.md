@@ -32,12 +32,12 @@ python3 manage.py runserver
 
 ### Endpoints that work
 
-⋅⋅* /tasks/: The main page of the site.
-⋅⋅* /about/: Provides information about the system, describing the functionality of the site.
-⋅⋅* /: Same as /tasks/, as a shortcut to the main page.
-⋅⋅* /<uuid:uuid>/: View details of a single task.
-⋅⋅* /<uuid:uuid>/update/: The page for updating a task.
-⋅⋅* /<uuid:uuid>/delete/: The task deletion page.
-⋅⋅* /sign-up/: The user registration page.
-⋅⋅* /sign-in/: The user login page.
-⋅⋅* /logout/: The user's logout page.
+⋅⋅*/tasks/: The main page of the site.
+⋅⋅*/about/: Provides information about the system, describing the functionality of the site.
+⋅⋅*/: Same as /tasks/, as a shortcut to the main page.
+⋅⋅*/<uuid:uuid>/: View details of a single task.
+⋅⋅*/<uuid:uuid>/update/: The page for updating a task.
+⋅⋅*/<uuid:uuid>/delete/: The task deletion page.
+⋅⋅*/sign-up/: The user registration page.
+⋅⋅*/sign-in/: The user login page.
+⋅⋅*/logout/: The user's logout page.
